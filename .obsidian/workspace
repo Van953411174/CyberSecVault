@@ -9,10 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Untitled.md",
+            "file": "NFS.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "074e7bf627dae4ec"
+      },
+      {
+        "id": "2011e01df12c635a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "NFS.md",
+            "mode": "preview"
+          }
+        },
+        "group": "074e7bf627dae4ec"
       }
     ],
     "direction": "vertical"
@@ -52,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 100
   },
   "right": {
     "id": "f007673a45777c8f",
@@ -68,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "NFS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +101,8 @@
   },
   "active": "ce245003ac67bd0c",
   "lastOpenFiles": [
+    "NFS.md",
+    "Table of Contents.md",
     "Untitled.md"
   ]
 }
