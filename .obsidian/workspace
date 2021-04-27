@@ -6,26 +6,28 @@
       {
         "id": "ce245003ac67bd0c",
         "type": "leaf",
+        "dimension": 44.91634491634492,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "NFS.md",
+            "file": "Exploiting NFS.md",
             "mode": "source"
           }
         },
-        "group": "074e7bf627dae4ec"
+        "group": "3e7cf93ac3a3d910"
       },
       {
-        "id": "2011e01df12c635a",
+        "id": "28da4954d1ea5e60",
         "type": "leaf",
+        "dimension": 55.08365508365508,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "NFS.md",
+            "file": "Exploiting NFS.md",
             "mode": "preview"
           }
         },
-        "group": "074e7bf627dae4ec"
+        "group": "3e7cf93ac3a3d910"
       }
     ],
     "direction": "vertical"
@@ -65,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 100
+    "width": 123
   },
   "right": {
     "id": "f007673a45777c8f",
@@ -81,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NFS.md",
+                "file": "Exploiting NFS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,8 +103,10 @@
   },
   "active": "ce245003ac67bd0c",
   "lastOpenFiles": [
+    "Exploiting NFS.md",
+    "Untitled.md",
     "NFS.md",
-    "Table of Contents.md",
-    "Untitled.md"
+    "Enumerating NFS.md",
+    "Table of Contents.md"
   ]
 }
