@@ -4,30 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "ce245003ac67bd0c",
+        "id": "6d6623b8330b57fd",
         "type": "leaf",
-        "dimension": 44.91634491634492,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Exploiting NFS.md",
+            "file": "Exploiting MySQL.md",
             "mode": "source"
           }
         },
-        "group": "3e7cf93ac3a3d910"
+        "group": "14163c549ec62a20"
       },
       {
-        "id": "28da4954d1ea5e60",
+        "id": "41534084445fbac4",
         "type": "leaf",
-        "dimension": 55.08365508365508,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Exploiting NFS.md",
+            "file": "Exploiting MySQL.md",
             "mode": "preview"
           }
         },
-        "group": "3e7cf93ac3a3d910"
+        "group": "14163c549ec62a20"
       }
     ],
     "direction": "vertical"
@@ -67,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 123
+    "width": 172
   },
   "right": {
     "id": "f007673a45777c8f",
@@ -83,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Exploiting NFS.md",
+                "file": "Exploiting MySQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,12 +99,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ce245003ac67bd0c",
+  "active": "6d6623b8330b57fd",
   "lastOpenFiles": [
-    "Exploiting NFS.md",
+    "Exploiting MySQL.md",
+    "Enumerating MySQL.md",
     "Untitled.md",
+    "MySQL.md",
+    "Exploiting NFS.md",
+    "Exploiting SMTP.md",
+    "Enumerating SMTP.md",
     "NFS.md",
-    "Enumerating NFS.md",
-    "Table of Contents.md"
+    "Table of Contents.md",
+    "Enumerating NFS.md"
   ]
 }
