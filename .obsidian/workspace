@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "6d6623b8330b57fd",
+        "id": "c88e58d4ca55d8b0",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -12,20 +12,7 @@
             "file": "Wireshark.md",
             "mode": "source"
           }
-        },
-        "group": "14163c549ec62a20"
-      },
-      {
-        "id": "41534084445fbac4",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Wireshark.md",
-            "mode": "preview"
-          }
-        },
-        "group": "14163c549ec62a20"
+        }
       }
     ],
     "direction": "vertical"
@@ -99,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "6d6623b8330b57fd",
+  "active": "c88e58d4ca55d8b0",
   "lastOpenFiles": [
     "Wireshark.md",
+    "TCP.md",
+    "HTTP & HTTPS.md",
+    "DNS.md",
+    "RSA NetWitness.md",
+    "NetworkMiner.md",
     "Untitled.md",
-    "Exploiting MySQL.md",
-    "Enumerating MySQL.md",
-    "MySQL.md",
-    "Exploiting NFS.md",
-    "Exploiting SMTP.md",
-    "Enumerating SMTP.md",
-    "NFS.md",
-    "Table of Contents.md"
+    "_Valek.md",
+    "Valek.md",
+    "Exploiting MySQL.md"
   ]
 }

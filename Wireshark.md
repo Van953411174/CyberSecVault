@@ -65,6 +65,19 @@ Packets consists of 5 of the 7 layers of the #OSI model
 -  Application Data (cont. Layer 7 - Application)
 	-  can show application specific data
 
+## Display
+Wireshark has some nifty tricks to display pertinent information amongst packet captues. First, it gives important info about each packet upfront such as:
+- packet number
+- time
+- source
+- destination
+- protocol
+- length
+- packet info
+
+Additionally, Wireshark uses a color coding system to classify each packet in order of *danger level* as well as protocol to facilitate quickly spotting anomalies and protocols in captures. 
+![Wireshark Colorcode](https://i.imgur.com/Mt0eGs8.png)
+
 ## ARP Analysis
 [[ARP]] - overview of the protocol
 
@@ -83,13 +96,71 @@ To locate all request or reply packets in Wireshark, simply filter by the releva
 - Ex: filtering for reply:  `arp.opcode == reply` or `arp.opcode == 2`
 
 
-## ICMP Analyis
+## ICMP Analysis
 [[ICMP]] - overview of #icmp protocol
 
 ### ICMP Traffic
-ICMP can be used in some innovative ways but most commonly used for determining if a system is up. This means its filtered/dropped by firewalls to prevent threat actors from determining the existence of a system using just ICMP.
+ICMP can be used in some innovative ways but most commonly used for determining if a system is up. This means its filtered/dropped by firewalls to prevent threat actors from determining the existence of a system using just ICMP. *Code* field refers to Control Messages which indicate the type of action used 
+<iframe src="https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol#Control_messages" class="resize-vertical"></iframe>
 
-#### ICMP Request Packet
 
-#### ICMP Reply Packet
+#### ICMP Ping Request Packet
+The *Type* field is what determines the ICMP's purpose. For a `ping` request, a *Type: 8* is used to indicate a *(Echo (ping) request)*
+![ICMP Ping Request|450](https://i.imgur.com/2Z49yZU.png)
+
+
+#### ICMP Ping Reply Packet
+Conversely, *Type: 0* is used to indicates a `ping` reply, *(Echo (ping) reply)*
+![ICMP Ping Reply|450](https://i.imgur.com/Vj3BESf.png)
+
+## TCP Analysis
+[[TCP]]
+TCP traffic can give useful insight into a network, however #tcp produces a large number of packets which means it can be hard to analyze.  
+
+### TCP Traffic
+Each connection starts with a TCP handshake, that is SYN -> SYN/ACK -> ACK. This is because TCP is a connection-based protocol that has error correction.
+
+When analyzing TCP traffic, the **sequence number** and **acknowledgment number** are very import. 
+- Sequence number
+	- used to keep track of the order of packets, that is, the sequence in which they should be parse
+- Acknowledgment number
+	- holds sequence number of the next expected data octet of transmissions in the reverse direction[^1]
+	- a value of 0 means that the destination port was closed
+
+[^1]: https://tools.ietf.org/html/rfc793
+
+Wireshark has the option of displaying Relative Sequence numbers or Original Sequence numbers by unchecking the relevant option in TCP.
+
+
+## DNS Analysis
+[[DNS]]
+DNS, or Domain Name System, resolve names to IP addresses. When analyzing #dns packets its important to keep in mind:
+- Query-response
+- DNS-Servers Only
+- UDP
+
+### DNS Traffic
+
+#### DNS Query
+Two main bits of information that can be used to analyze a DNS packet. 
+1. Where the query is originating from?
+2. What it is querying?
+![DNS Query|450](https://i.imgur.com/F0a3gnT.png)
+
+**Where** the query is from and its protocol can either raise of lower flags. E.g. if a query from *TCP 53* instead of *UDP 53*, that should raise concerns and warrants a further look. 
+
+**What** it is querying can be used to help build a story of what happened.
+
+Anomalous DNS traffic is very dependent upon the environment and whether or not any given traffic would be considered normal for that environment. 
+
+#### DNS Response
+Similar to a query packet but includes an answer to the query. 
+![DNS Response|450](https://i.imgur.com/hVz5vSK.png)
+
+
+## HTTP Analysis
+[[HTTP & HTTPS]]
+
+## HTTPS Analysis
+[[HTTP & HTTPS]]
 
