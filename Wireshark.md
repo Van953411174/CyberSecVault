@@ -164,3 +164,9 @@ Similar to a query packet but includes an answer to the query.
 ## HTTPS Analysis
 [[HTTP & HTTPS]]
 
+## Real Analysis
+[[Zerologon PCAP - TryHackMe]]
+
+https://dfirmadness.com/case-001-pcap-analysis/
+
+https://tryhackme.com/room/overpass2hacked
