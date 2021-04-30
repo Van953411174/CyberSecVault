@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Nessus.md",
+            "file": "YARA.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ADD",
+                "query": "tag:#ATTCK",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Nessus.md",
+                "file": "YARA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "3f79e6c020ce128b",
   "lastOpenFiles": [
-    "Nessus.md",
+    "YARA.md",
     "Untitled.md",
+    "ATT&CK Framework.md",
+    "CAR Knowledge Base.md",
+    "MITRE.md",
+    "AEP.md",
+    "SHIELD Active Defense.md",
+    "Nessus.md",
     "Azure Active Directory.md",
-    "Active Directory.md",
-    "NTLM & NTLM 2.md",
-    "Kerberos.md",
-    "Windows Authentication.md",
-    "Policies - AD.md",
-    "Trusts - AD.md",
-    "Forest - AD.md"
+    "Active Directory.md"
   ]
 }

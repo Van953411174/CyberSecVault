@@ -5,7 +5,7 @@ Nessus doesn't make assumptions like other scanners while scanning, like assumin
 
 ## Starting Nessus
 To start Nessus you need to start the daemon service:
-`sudo systemctl nessusd.service start`
+`sudo systemctl start nessusd.service`
 
 After the service starts, navigate to `https://localhost:8834`, ignore the security warning (its just because the certificate is self-signed)
 
@@ -64,4 +64,8 @@ On completion, and while running, Vulns will populate with discoveries.
 
 
 [^1]:Its worth noting that all of the settings allow for a *Custom* option that drastically expands the settings available outside of the quick options. Example: Advanced -> Custom allows for filepath exclusion, debug settings, max and min connections, etc. 
+
+## Closing Nessus
+The service must be manually shutdown if you do not want it continuing to run in the background. This can be accomplished with:
+`sudo systemctl stop nessusd.service`
 
