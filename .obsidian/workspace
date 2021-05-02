@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "3f79e6c020ce128b",
+        "id": "e930a2a4dca5ca32",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "YARA.md",
+            "file": "LOKI.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ATTCK",
+                "query": "tag:#YAYA",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "YARA.md",
+                "file": "LOKI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3f79e6c020ce128b",
+  "active": "e930a2a4dca5ca32",
   "lastOpenFiles": [
+    "LOKI.md",
     "YARA.md",
-    "Untitled.md",
-    "ATT&CK Framework.md",
-    "CAR Knowledge Base.md",
+    "Active Directory.md",
+    "Cheatsheet-YARA.md",
     "MITRE.md",
-    "AEP.md",
-    "SHIELD Active Defense.md",
-    "Nessus.md",
-    "Azure Active Directory.md",
-    "Active Directory.md"
+    "Windows Authentication.md",
+    "Windows.md",
+    "Wireshark.md",
+    "Untitled.md",
+    "ATT&CK Framework.md"
   ]
 }
