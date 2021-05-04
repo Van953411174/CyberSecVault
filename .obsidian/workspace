@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "b02a7616b1d0e0dd",
+        "id": "00c61c0165cc72cc",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ZeroLogon.md",
-            "mode": "source"
+            "file": "ZeroLogon PoC.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ZeroLogon.md",
+                "file": "ZeroLogon PoC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b02a7616b1d0e0dd",
+  "active": "00c61c0165cc72cc",
   "lastOpenFiles": [
-    "ZeroLogon.md",
+    "ZeroLogon PoC.md",
     "MS-NRPC.md",
+    "zerologon-nullpass.py-help.png",
+    "ZeroLogon.md",
+    "ms-nrpc-authentication-handshake.png",
+    "ms-nrpc-zerologon-attack.png",
     "Exploiting NFS.md",
     "SMPT, POP and IMAP.md",
     "Zerologon PCAP - TryHackMe.md",
-    "Untitled.md",
-    "AlienVault OTX.md",
-    "ISAC.md",
-    "Threat Connect.md",
-    "YARA.md"
+    "Untitled.md"
   ]
 }
