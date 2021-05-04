@@ -10,7 +10,7 @@ Utilizes #TTP (Tactics, Techniques, and Procedures) for mapping threats, incorpo
 - Procedures - how the technique is executed
 
 ## Cyber Threat Intelligence
-#threat_intelligence ( #TI) or #cyber_threat_intelligence ( #CTI) is the information, or #TTP's, attributed to the adversary. Using threat intelligence defenders can make better decisions regarding defensive strategy. 
+#threat_intelligence ( #TI) or #cyber_threat_intelligence( #CTI) is the information, or #TTP's, attributed to the adversary. Using threat intelligence (see [[Cyber Threat Intelligence]]) defenders can make better decisions regarding defensive strategy. 
 
 You can use ATT&CK for threat intelligence to determine and map APT groups who might target your company's sector and specific techniques used. Using this approach you can cross-reference your security posture with ATT&CK to check for gaps in coverage. 
 

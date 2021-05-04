@@ -4,11 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "de91c0427196b1ea",
+        "id": "b02a7616b1d0e0dd",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "ZeroLogon.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -36,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#YARA",
+                "query": "mermaid",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ZeroLogon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "de91c0427196b1ea",
+  "active": "b02a7616b1d0e0dd",
   "lastOpenFiles": [
-    "Pasted image 20210427183500.png",
-    "Enumerating SMTP.md",
-    "Exploiting SMTP.md",
+    "ZeroLogon.md",
+    "MS-NRPC.md",
+    "Exploiting NFS.md",
     "SMPT, POP and IMAP.md",
-    "CAR Knowledge Base.md",
-    "Pasted image 20210430125737.png",
-    "Pasted image 20210430123930.png",
-    "Valhalla.md",
-    "YARA.md",
-    "LOKI.md"
+    "Zerologon PCAP - TryHackMe.md",
+    "Untitled.md",
+    "AlienVault OTX.md",
+    "ISAC.md",
+    "Threat Connect.md",
+    "YARA.md"
   ]
 }
