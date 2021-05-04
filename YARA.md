@@ -14,6 +14,13 @@ Rules are used to label these patterns, and are frequently written to determine 
 
 The language that Yara uses **IS PROPRIETARY** which is worth keeping in mind. 
 
+## Best Practice
+[How to Write Simple but Sound Yara Rules - Part 1](https://www.bsk-consulting.de/2015/02/16/write-simple-sound-yara-rules/)
+
+[How to Write Simple but Sound Yara Rules - Part 2](https://www.bsk-consulting.de/2015/10/17/how-to-write-simple-but-sound-yara-rules-part-2/)
+
+[How to Write Simple but Sound Yara Rules - Part 3](https://www.bsk-consulting.de/2016/04/15/how-to-write-simple-but-sound-yara-rules-part-3/)
+
 ## Using YARA
 Fairly trivial to pick-up, hard to master. Your rule is _only_ as effective as your understanding of the patterns you want to search for. 
 
@@ -143,6 +150,14 @@ Its written in Go as corporate product, odds are its FAST.
 ### FENRIR
 [#FENRIR](https://github.com/Neo23x0/Fenrir) is a simple #bash IOC checker using YARA. As such its very portable seeing as Windows now mostly supports bash. 
 
+### [[yarGen]]
+[#yarGen](https://github.com/Neo23x0/yarGen) is another tool by Neo23x0 in #Python . Just like the name implies, yarGen is a tool to generate YARA rules. 
+
+### [[yarAnalyzer]]
+[#yarAnalyzer](https://github.com/Neo23x0/yarAnalyzer/) is *another* tool by Neo23x0 in #Python. It creates statistics on a #YARA rule set and files. 
+
+### [[Valhalla]]
+[Valhalla](https://www.nextron-systems.com/valhalla/) is **_ANOTHER_** tool by Neo23x0 (jesus). Offered by his company Nextron Systems, Valhalla is a YARA rule feed with different categories of rules. Has a Web Frontend and API client. 
 ### YAYA
 [#YAYA](https://github.com/EFForg/yaya) stands for *Yet Another YARA Automaton*, YAYA was buit by the #EFF and release 09/2020. 
 > "_YAYA is a new open-source tool to help researchers manage multiple YARA rule repositories. YAYA starts by importing a set of high-quality YARA rules and then lets researchers add their own rules, disable specific rulesets, and run scans of files._"

@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e930a2a4dca5ca32",
+        "id": "de91c0427196b1ea",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "LOKI.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -39,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#YAYA",
+                "query": "tag:#YARA",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LOKI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +82,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e930a2a4dca5ca32",
+  "active": "de91c0427196b1ea",
   "lastOpenFiles": [
-    "LOKI.md",
+    "Pasted image 20210427183500.png",
+    "Enumerating SMTP.md",
+    "Exploiting SMTP.md",
+    "SMPT, POP and IMAP.md",
+    "CAR Knowledge Base.md",
+    "Pasted image 20210430125737.png",
+    "Pasted image 20210430123930.png",
+    "Valhalla.md",
     "YARA.md",
-    "Active Directory.md",
-    "Cheatsheet-YARA.md",
-    "MITRE.md",
-    "Windows Authentication.md",
-    "Windows.md",
-    "Wireshark.md",
-    "Untitled.md",
-    "ATT&CK Framework.md"
+    "LOKI.md"
   ]
 }
