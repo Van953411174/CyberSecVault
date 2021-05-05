@@ -6,7 +6,7 @@ The pcap file from THM contains a #Windows #Domain_Controller with a private IP 
 
 ## Identifying the Attacker
 
-Immediately upon opening there's some normal #OpenVpn traffic and #SSDP ([[SSDP|Simple Service Discovery Protocol]]), #tcp, and #arp. But after that are two less common protocols, #DCERPC ([[DCERPC|Distributed Copmuting Environment/REmote Procedure Call]]and #EPM ([[EPM|Endpoint Mapper for DCERPC]], indicated by the red highlights.
+Immediately upon opening there's some normal #OpenVPN traffic and #SSDP ([[SSDP|Simple Service Discovery Protocol]]), #tcp, and #arp. But after that are two less common protocols, #DCERPC ([[DCERPC|Distributed Copmuting Environment/REmote Procedure Call]]and #EPM ([[EPM|Endpoint Mapper for DCERPC]], indicated by the red highlights.
 
 ![[Pasted image 20210429110209.png]]
 

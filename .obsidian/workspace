@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ZeroLogon PoC.md",
-            "mode": "preview"
+            "file": "OpenVAS.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mermaid",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ZeroLogon PoC.md",
+                "file": "OpenVAS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "00c61c0165cc72cc",
   "lastOpenFiles": [
-    "ZeroLogon PoC.md",
-    "MS-NRPC.md",
-    "zerologon-nullpass.py-help.png",
-    "ZeroLogon.md",
-    "ms-nrpc-authentication-handshake.png",
-    "ms-nrpc-zerologon-attack.png",
-    "Exploiting NFS.md",
-    "SMPT, POP and IMAP.md",
+    "OpenVAS.md",
+    "GVM - Greenbone Vulnerability Management.md",
     "Zerologon PCAP - TryHackMe.md",
-    "Untitled.md"
+    "Untitled.md",
+    "ZeroLogon.md",
+    "Evil-WinRm.md",
+    "ZeroLogon PoC.md",
+    "SecretsDump.py.md",
+    "MS-NRPC.md",
+    "zerologon-nullpass.py-help.png"
   ]
 }

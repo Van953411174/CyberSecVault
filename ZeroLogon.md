@@ -1,6 +1,16 @@
 # ZeroLogon
 A short examination of a PCAP capture of ZeroLogon can be found [[Zerologon PCAP - TryHackMe]]
 
+## Table of Contents
+- [[ZeroLogon#What is it|What is it?]]
+	- [[ZeroLogon#About ZeroLogon vuln|About ZeroLogon vuln]]
+	- [[ZeroLogon#About Machine Accounts|About Machine Accounts]]
+- [[ZeroLogon#Running ZeroLogon|Exploiting ZeroLogon]]
+	- [[ZeroLogon#Kill Chain|Kill Chain]]
+	- [[ZeroLogon#Exploiting MS-NRPC|Exploiting MS-NRPC]]
+	- [[ZeroLogon#PoC|PoC]]
+-  [[ZeroLogon#Post-Exploit|Post-Exploit]]
+
 ## What is it?
 Secura released a white paper for #CVE-2020-1472 on Sep 14th, 2020. #zerologon #vulnerability allowed an attacker to from Zero to Domain Admin in approximately one minute. 
 
@@ -59,7 +69,17 @@ At this point the attempt to exploit the Zero Logon vulnerability is under way. 
 
 After which normal RPC communications can occur. 
 
-#### PoC
+### PoC
 Secura has a PoC available for ZeroLogon in #Python : [SecuraBV-CVE-2020-1472-PoC](https://raw.githubusercontent.com/SecuraBV/CVE-2020-1472/master/zerologon_tester.py)
 
 ![[ZeroLogon PoC]]
+
+## Post-Exploit
+Once the Domain Controller is compromised and access achieved to the machine account, adversaries often run [[SecretsDump.py]] or equivalent to pull all relevant information from the server. 
+
+The account names and hashes can be then either cracked offline or used in a #pass-the-hash attack with tools like [[Evil-WinRm]] to achieve get Admin. 
+
+![[Evil-WinRm#Pass-the-Hash]]
+
+
+

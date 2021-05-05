@@ -291,7 +291,10 @@ After providing the required args, if successful, the script bruteforces the cur
 
 ![[zerologon-nullpass_py-success.png]]
 
-To connect to the compromised Domain Controller, just use any RPC client, with the NetBIOS name as the user and no password (or enter when prompted) as the password is now set to NULL.
+To connect to the compromised Domain Controller, just use any RPC client, with the NetBIOS name as the user and no password (or enter when prompted) as the password is now set to NULL, i.e. no password. 
 
 
 ![[rpcclient-connect-zerologon.png]]
+
+
+Alternatively, you can use [[SecretsDump.py]] to dump the secrets of the machine. 
