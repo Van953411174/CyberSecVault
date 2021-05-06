@@ -33,10 +33,25 @@ There are two additional utils w/ Parrot:
 - `openvas-nasl-lint` Linter for testing scripts for syntax errors
 
 #### Setup
-Before use you have to run the setup script. Its **_very_** long process, and at the end the automatically generated password will be displayed for you. 
+Before use you have to run the setup script. Its **_very_** long process, and an automatically generated password will be displayed for you. 
 *SAVE SOMEWHERE SAFE*
 
-After setup completion, there will be two listening TCP ports: 9390 and 9392, with the latter being the Web Interface accessible at:
+##### Errors
+It is likely that first time setup you'll encounter an error about #PostgreSQL version.
+![[gvm-setup-error-postgres.png]]
+
+This can be remediated rather easily, as odds are you do have the required version but older versions are in the way. 
+
+1. First list out the current clusters w/: `pg_lsclusters` 
+![[postgresql-ls-clusters.png]]
+2. Next stop the running clusters with a version less than 13: [^1]
+ `sudo systemctl stop postgresql@11-main && sudo systemctl stop postgresql@12-main` ![[postgresql-ls-clusters-after-stop.png]]
+3. Then remove the old clusters, i.e. drop them: `sudo pg_dropcluster 11 main && sudo pg_dropcluster 12 main`
+4. Lastly, verify the clusters have been removed (`pg_lsclusters`) and rerun *setup* (`sudo gvm-setup`. ![[pg-ls-clusters-after-drop.png]]
+
+[^1]: Technically this can be skipped by using the `--stop` option with `sudo pg_dropcluster`. However its more graceful to use `systemctl` ahead of time. 
+
+After setup completion, or after `gvm-start` there will be two listening TCP ports: 9390 and 9392, with the latter being the Web Interface accessible at:
 `https://127.0.0.1:9392`
 
 #### Resetting Password
