@@ -1,5 +1,5 @@
 # ZeroLogon
-A short examination of a PCAP capture of ZeroLogon can be found [[Zerologon PCAP - TryHackMe]]
+A short examination of a PCAP capture of ZeroLogon can be found [[ZeroLogon PCAP - TryHackMe]]
 
 ## Table of Contents
 - [[ZeroLogon#What is it|What is it?]]

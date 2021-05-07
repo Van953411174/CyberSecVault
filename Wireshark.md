@@ -165,7 +165,7 @@ Similar to a query packet but includes an answer to the query.
 [[HTTP & HTTPS]]
 
 ## Real Analysis
-[[Zerologon PCAP - TryHackMe]]
+[[ZeroLogon PCAP - TryHackMe]]
 
 https://dfirmadness.com/case-001-pcap-analysis/
 

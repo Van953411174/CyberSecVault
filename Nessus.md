@@ -1,7 +1,9 @@
 # Nessus
-#Nessus is a vulnerability scanner and uses techniques similar to #nmap to find and report vulnerabilities, which are then presented in a nice GUI.
+#Nessus is a #vulnerability_scanner and uses techniques similar to #nmap to find and report vulnerabilities, which are then presented in a nice GUI.
 
 Nessus doesn't make assumptions like other scanners while scanning, like assuming a web application is running on port 80.
+
+Like other vulnerability scanners Nessus scans can be scheduled, allowing for #continuous_monitoring , and its #reporting abilities make it a useful tool in #vulnerability_management.
 
 ## Starting Nessus
 To start Nessus you need to start the daemon service:

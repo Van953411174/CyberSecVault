@@ -1,23 +1,23 @@
 # Windows Utility Tools
 ## Built-in
 Brief, non-exhaustive list, of some built-in utility tools
--   [[WIndows Utility Tools#Built-in#Computer Management|Computer Management]]
--   [[WIndows Utility Tools#Built-in#Local Security Policy|Local Security Policy]]
--   [[WIndows Utility Tools#Built-in#Disk Cleanup|Disk Cleanup]]
--   [[WIndows Utility Tools#Built-in#Registry Editor|Registry Editor]] ^c0c1a8
--   [[WIndows Utility Tools#Built-in#Command-line Tools|Command-line tools]]
--   [[WIndows Utility Tools#Built-in#Registry Editor Regedit|Registry Editor ( #Regedit)]]
+-   [[WIndows - Utility Tools#Built-in#Computer Management|Computer Management]]
+-   [[WIndows - Utility Tools#Built-in#Local Security Policy|Local Security Policy]]
+-   [[WIndows - Utility Tools#Built-in#Disk Cleanup|Disk Cleanup]]
+-   [[WIndows - Utility Tools#Built-in#Registry Editor|Registry Editor]] ^c0c1a8
+-   [[WIndows - Utility Tools#Built-in#Command-line Tools|Command-line tools]]
+-   [[WIndows - Utility Tools#Built-in#Registry Editor Regedit|Registry Editor ( #Regedit)]]
 
 
 ### Computer Management
 Contains tools such as:
- - [[WIndows Utility Tools#Built-in#Computer Management#Task Scheduler|Task Scheduler]]
--    [[WIndows Utility Tools#Built-in#Computer Management#Event Viewer|Event Viewer]]
--    [[WIndows Utility Tools#Built-in#Computer Management#Shared Folders|Shared Folders]]
--    [[WIndows Utility Tools#Built-in#Computer Management#Local users & computers|Local users & computers]]
--   [[WIndows Utility Tools#Built-in#Computer Management#Performance Monitor|Performance Monitor]]
--    [[WIndows Utility Tools#Built-in#Computer Management#Disk Management|Disk Management]]
--    [[WIndows Utility Tools#Built-in#Computer Management#Services & Applications|Services & Applications]]
+ - [[WIndows - Utility Tools#Built-in#Computer Management#Task Scheduler|Task Scheduler]]
+-    [[WIndows - Utility Tools#Built-in#Computer Management#Event Viewer|Event Viewer]]
+-    [[WIndows - Utility Tools#Built-in#Computer Management#Shared Folders|Shared Folders]]
+-    [[WIndows - Utility Tools#Built-in#Computer Management#Local users & computers|Local users & computers]]
+-   [[WIndows - Utility Tools#Built-in#Computer Management#Performance Monitor|Performance Monitor]]
+-    [[WIndows - Utility Tools#Built-in#Computer Management#Disk Management|Disk Management]]
+-    [[WIndows - Utility Tools#Built-in#Computer Management#Services & Applications|Services & Applications]]
 
 #### Task Scheduler
 This is a tool that allows predefined actions to be automatically executed whenever a certain set of conditions is met(Ex: You can set up a date and time for a piece of software to be installed, or a script to run).

@@ -1,5 +1,13 @@
 # Windows
 
+Linked Topics:
+- [[Windows - Authentication]]
+- [[WIndows - Utility Tools]]
+- [[Windows - Core Processes]]
+
+
+
+
 ## General File System
 #Windows File System Structure is:
 - Logical Drives (Ex: Local Disk C)
@@ -60,9 +68,6 @@ with appended commands like `/grant` , `/deny`, `/setowner`
 Full documentation:
 https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/icacls
 
-## Authentication
-[[Windows Authentication]]
 
-## Utility Tools 
-[[WIndows Utility Tools]]
+
 

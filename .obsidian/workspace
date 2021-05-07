@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "00c61c0165cc72cc",
+        "id": "a7ffbe821439df13",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "OpenVAS.md",
+            "file": "sc.exe.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "creden",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,12 +48,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 172
+    "width": 241.00810623168945
   },
   "right": {
     "id": "f007673a45777c8f",
@@ -69,11 +68,11 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenVAS.md",
+                "file": "sc.exe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
@@ -87,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "00c61c0165cc72cc",
+  "active": "a7ffbe821439df13",
   "lastOpenFiles": [
-    "OpenVAS.md",
-    "GVM - Greenbone Vulnerability Management.md",
-    "Zerologon PCAP - TryHackMe.md",
+    "sc.exe.md",
+    "Windows - Core Processes.md",
+    "Windows - User mode and kernel mode.md",
     "Untitled.md",
-    "ZeroLogon.md",
-    "Evil-WinRm.md",
-    "ZeroLogon PoC.md",
-    "SecretsDump.py.md",
-    "MS-NRPC.md",
-    "zerologon-nullpass.py-help.png"
+    "WIndows - Utility Tools.md",
+    "Get-Process.md",
+    "Process Explorer.md",
+    "Process Hacker.md",
+    "RSA NetWitness.md",
+    "OpenVAS.md"
   ]
 }
