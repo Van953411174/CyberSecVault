@@ -2,7 +2,7 @@
  
  [MS-NRPC](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-nrpc/ff8f970f-3e37-40f7-bd4b-af7336e4792f)
 
-Basic Netlogon Authentication Handshake, exploited in 2020 during [[ZeroLogon]] attack, specifically the *ComputeNetLogonCredential*
+Basic #Netlogon Authentication Handshake, exploited in 2020 during [[ZeroLogon]] attack, specifically the *ComputeNetLogonCredential*
 See [[ZeroLogon#Exploiting MS-NRPC]] for exploitation. 
 
 The following information, with the exception of [[MS-NRPC#Additional Readings Sources]], is not up-to-date. It is in reference to the version exploited by ZeroLogon. 

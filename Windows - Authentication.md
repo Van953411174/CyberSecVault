@@ -1,7 +1,7 @@
 # Windows Authentication
 
 ## Local Authentication
-Local Authentication is done using the Local Security Authority #LSA . LSA is a protected subsystem that keeps track of the security policies and accounts that are on a computer system. Also maintains information about all aspects of local security on a computer.
+Local Authentication is done using the Local Security Authority #LSA . LSA is a protected subsystem that keeps track of the security policies and accounts that are on a computer system. Also maintains information about all aspects of local security on a computer. See [[Windows - lsass.exe]] for the service that handles authentication locally. 
 
 ## Active Directory
 [[Active Directory]]

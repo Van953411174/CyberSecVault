@@ -5,7 +5,9 @@ Linked Topics:
 - [[WIndows - Utility Tools]]
 - [[Windows - Core Processes]]
 
-
+More reading:
+- [Processes and Threads](https://docs.microsoft.com/en-us/windows/win32/procthread/about-processes-and-threads) 
+- [Windows API](https://docs.microsoft.com/en-us/windows/win32/apiindex/windows-api-list)
 
 
 ## General File System

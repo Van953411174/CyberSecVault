@@ -15,7 +15,7 @@ A short examination of a PCAP capture of ZeroLogon can be found [[ZeroLogon PCAP
 Secura released a white paper for #CVE-2020-1472 on Sep 14th, 2020. #zerologon #vulnerability allowed an attacker to from Zero to Domain Admin in approximately one minute. 
 
 ### About ZeroLogon vuln
-Its a pure statistical attack, focusing on a poor implementation of #cryptography that abuses a feature within [[MS-NRPC]] (Microsoft NetLogon Remote Protocol). #MS-NRPC is a **critical authentication** component of [[Active Directory]] that handles #AD authentication for User and Machine accounts. 
+Its a pure statistical attack, focusing on a poor implementation of #cryptography that abuses a feature within [[MS-NRPC]] (Microsoft #Netlogon Remote Protocol). #MS-NRPC is a **critical authentication** component of [[Active Directory]] that handles #AD authentication for User and Machine accounts. 
 
 #Microsoft chose to use #AES-CFB8 for a function called *ComputeNetLogonCredential*. Normally this is fine, but they chose to **hard code** the #IV (intialization vector) to use all zeros instead of a random string. 
 

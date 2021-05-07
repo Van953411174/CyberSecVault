@@ -1,5 +1,5 @@
 # ZeroLogon PoC
-This is a breakdown from [TryHackMe](https://tryhackme.com/room/zer0logon) of the #zerologon exploit, which exploits [[MS-NRPC]] authentication( #MS-NRPC)
+This is a breakdown from [TryHackMe](https://tryhackme.com/room/zer0logon) of the #zerologon exploit, which exploits [[MS-NRPC]] authentication( #MS-NRPC) and the underlying #Netlogon 
 
 The PoC ( #Python) can be found here: https://raw.githubusercontent.com/SecuraBV/CVE-2020-1472/master/zerologon_tester.py
 
