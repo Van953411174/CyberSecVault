@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "8f6cddca4851f091",
+        "id": "a81efbb5a6d762c3",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -48,7 +48,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8f6cddca4851f091",
+  "active": "a81efbb5a6d762c3",
   "lastOpenFiles": [
     "Windows - Event Logs.md",
+    "event-viewer-xpath-query-components.png",
+    "Pasted image 20210508134639.png",
     "Untitled.md",
     "Windows - Sysinternals Suite.md",
     "ADS- Alternate Data Streams.md",
     "Miscellaneous - Sysint.md",
     "System Information - Sysint.md",
     "Security Utilities - Sysint.md",
-    "Process Utilities - Sysint.md",
-    "Networking Utilities - Sysint.md",
-    "Process Explorer.md"
+    "Process Utilities - Sysint.md"
   ]
 }
