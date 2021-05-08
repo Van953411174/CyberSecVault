@@ -7,8 +7,11 @@
         "id": "8f6cddca4851f091",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Windows - Event Logs.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -49,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 364.50021171569824
+    "width": 162.00021171569824
   },
   "right": {
     "id": "f007673a45777c8f",
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Windows - Event Logs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,6 +88,8 @@
   },
   "active": "8f6cddca4851f091",
   "lastOpenFiles": [
+    "Windows - Event Logs.md",
+    "Untitled.md",
     "Windows - Sysinternals Suite.md",
     "ADS- Alternate Data Streams.md",
     "Miscellaneous - Sysint.md",
@@ -91,8 +97,6 @@
     "Security Utilities - Sysint.md",
     "Process Utilities - Sysint.md",
     "Networking Utilities - Sysint.md",
-    "Process Explorer.md",
-    "Process Hacker.md",
-    "Files and Disk Utilities - Sysint.md"
+    "Process Explorer.md"
   ]
 }
