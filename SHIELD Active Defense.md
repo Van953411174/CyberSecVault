@@ -1,3 +1,4 @@
+<- [[MITRE]]
 # SHIELD Active Defense
 > Shield is an active defense knowledge base MITRE is developing to capture and organize what we are learning about active defense and adversary engagement. Derived from over 10 years of adversary engagement experience, it spans the range from high level, CISO ready considerations of opportunities and objectives, to practitioner friendly discussions of the TTPs available to defenders. 
 > We are developing this knowledge base as both unstructured (think writings like blogs and papers) and structured (think tables of things, related to each other with links) data. Our first release (see more below) focuses on the structured elements. Working with the data can be awkward, so our presentation here is in the form of a couple of organizing views or “mappings”, including a mapping between MITRE ATT&CK® and Shield. We foresee additional views into the knowledge base we are developing.

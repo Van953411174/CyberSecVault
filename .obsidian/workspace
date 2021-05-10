@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "a81efbb5a6d762c3",
+        "id": "345593b95efd7381",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Windows - Event Logs.md",
+            "file": "Windows - svchost.exe.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "svchost",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 162.00021171569824
+    "width": 140.50021171569824
   },
   "right": {
     "id": "f007673a45777c8f",
@@ -69,13 +69,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows - Event Logs.md",
-                "collapseAll": false,
-                "extraContext": false,
+                "file": "Windows - svchost.exe.md",
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": true,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
+                "searchQuery": "Wireshark",
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a81efbb5a6d762c3",
+  "active": "345593b95efd7381",
   "lastOpenFiles": [
-    "Windows - Event Logs.md",
-    "event-viewer-xpath-query-components.png",
-    "Pasted image 20210508134639.png",
-    "Untitled.md",
-    "Windows - Sysinternals Suite.md",
+    "Windows - svchost.exe.md",
+    "Windows - Core Processes.md",
+    "XPath Query.md",
+    "Sysmon.md",
+    "Threat Hunting.md",
+    "Hunting with PowerShell.md",
+    "sysmon-event_id_1-process-creation.png",
+    "Get-WinEvent.md",
     "ADS- Alternate Data Streams.md",
-    "Miscellaneous - Sysint.md",
-    "System Information - Sysint.md",
-    "Security Utilities - Sysint.md",
-    "Process Utilities - Sysint.md"
+    "MITRE.md"
   ]
 }
