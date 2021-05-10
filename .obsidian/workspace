@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Windows - svchost.exe.md",
-            "mode": "preview"
+            "file": "osquery.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "svchost",
+                "query": "AMP",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,8 +48,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows - svchost.exe.md",
+                "file": "osquery.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -89,15 +88,15 @@
   },
   "active": "345593b95efd7381",
   "lastOpenFiles": [
+    "osquery.md",
+    "yarAnalyzer.md",
+    "YARA.md",
+    "Enumerating MySQL.md",
+    "Untitled.md",
+    "Talos Reputation Center.md",
     "Windows - svchost.exe.md",
     "Windows - Core Processes.md",
     "XPath Query.md",
-    "Sysmon.md",
-    "Threat Hunting.md",
-    "Hunting with PowerShell.md",
-    "sysmon-event_id_1-process-creation.png",
-    "Get-WinEvent.md",
-    "ADS- Alternate Data Streams.md",
-    "MITRE.md"
+    "Sysmon.md"
   ]
 }
