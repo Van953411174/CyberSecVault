@@ -1,3 +1,4 @@
+<- [[YARA]]
 # yarGen
 Another tool by Neo23x0 in #Python , used to generate [[YARA]] rules. 
 Creates rules by cross referencing strings and #opcodes from goodware against #malware, thereby isolating characteristics of the malware that can be used to identify it. 

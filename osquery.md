@@ -50,6 +50,13 @@ Complete Documentation:  https://osquery.readthedocs.io/en/stable/deployment/yar
 
 There are two [[YARA]]-related tables in osquery, which serve very different purposes. The first table, called `yara_events`, uses osquery's [Events framework](https://osquery.readthedocs.io/en/stable/development/pubsub-framework/) to monitor for filesystem changes and will execute #YARA when a file change event fires. The second table, just called `yara`, is an on-demand YARA scanning table.
 
+**NOTE**: it appears that the osquery yara docks are a little out of date as they reference the use of *pattern* and *path*, but only *path* is actually valid. To accomplish *pattern* matching, use `LIKE` followed by *path* with your pattern modifiers in the path. 
+E.g. 
+```sql
+SELECT * FROM yara WHERE path LIKE '/etc/%'
+```
+See - [[osquery#Matching Rules and Examples]] for rules
+
 ## ATT&CK and Osquery
 Mapping [[ATT&CK Framework]] to Osquery
 https://github.com/teoseller/osquery-attck
@@ -98,7 +105,7 @@ Ordering output and limiting the amount of output is incredibly useful
 
 *Order returned process information by name and limit to 3 entries*
 ```sql
-SELECT pid, name, path FROM processes; ORDER by NAME LIMIT 3;
+SELECT pid, name, path FROM processes ORDER bY NAME LIMIT 3;
 ```
 
 #### JOIN and USING
@@ -132,17 +139,39 @@ After you identify the files and directories you wish to monitor, add their matc
 **Note:** Remember to specify home paths as, for instance, `/Users/%`, instead of `~/%` which will not work.
 
 ## Example Queries
-Query for usernames from user table where username is 3 characters long and ends with 'en' (Ubuntu)
+### Linux
+Query for usernames from user table where username is 3 characters long and ends with 'en' (Linux)
 ```sql
 SELECT username FROM users WHERE username LIKE '_en'
 ```
 
-The uid for *bravo* user (Ubuntu)
+The uid for *bravo* user (Linux))
 ```sql
 SELECT uid FROM users WHERE username='bravo'
 ```
 
-With YARA on-demand scan all files within home directories for YARA sigfile match
+With YARA on-demand scan all files within home directories for YARA sigfile match (Linux)
 ```sql
-SELECT * FROM yara WHERE pattern="/%%" AND sigfile="/var/osquery/yara/scanner.yar";
+SELECT * FROM yara WHERE path LIKE "/home/%/%" AND sigfile="/var/osquery/yara/scanner.yar";
+```
+![[osquery-yara-on-demand-all-home-dirs.png]]
 
+### Windows
+Look up description of Windows Defender Service
+*Uses Polylogx osq-ext-bin extension*
+```sql
+SELECT name, display_name, description FROM win_services WHERE display_name LIKE 'Windows Defender%'
+```
+![[osquery-polylogx-ext-windows-service-lookup.png]]
+
+Look up first Sysmon event ID 
+*Uses Polylogx osq-ext-bin extension*
+```sql
+SELECT eventid FROM win_event_log_data WHERE source='Microsoft-Windows-Sysmon/Operational' ORDER BY datetime LIMIT 1;
+```
+
+Query Windows Defender log for earliest malware detection [Event ID:1116](https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/troubleshoot-microsoft-defender-antivirus?view=o365-worldwide) (MALWAREPROTECTION_STATE_MALWARE_DETECTED)
+```sql
+SELECT datetime FROM win_event_log_data WHERE source='Microsoft-Windows-Windows Defender/Operational' AND eventid='1116' ORDER BY datetime LIMIT 5;
+```
+![[osquery-polylogx-ext-windows-defender-malware-alert.png]]

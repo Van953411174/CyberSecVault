@@ -1,5 +1,6 @@
+<-[[YARA]]
 # yarAnalyzer
-A [[YARA]] tool for analyzing #YARA rule set and files. 
+Tool for analyzing #YARA rule set and files. 
 
 ## Usage
 Very simple to use, first place rule set you want analyzed in the `/signatures` directory

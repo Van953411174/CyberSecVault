@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "345593b95efd7381",
+        "id": "72556f0908a4cb20",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "osquery.md",
+            "file": "Splunk.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "AMP",
+                "query": "hash",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 140.50021171569824
+    "width": 196.00021171569824
   },
   "right": {
     "id": "f007673a45777c8f",
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "osquery.md",
+                "file": "Splunk.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -86,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "345593b95efd7381",
+  "active": "72556f0908a4cb20",
   "lastOpenFiles": [
+    "Splunk.md",
     "osquery.md",
-    "yarAnalyzer.md",
-    "YARA.md",
-    "Enumerating MySQL.md",
+    "osquery-yara-on-demand-all-home-dirs.png",
     "Untitled.md",
-    "Talos Reputation Center.md",
-    "Windows - svchost.exe.md",
-    "Windows - Core Processes.md",
-    "XPath Query.md",
-    "Sysmon.md"
+    "osquery-polylogx-ext-windows-service-lookup.png",
+    "Sysmon.md",
+    "YARA.md",
+    "LOKI.md",
+    "Valhalla.md",
+    "yarAnalyzer.md"
   ]
 }

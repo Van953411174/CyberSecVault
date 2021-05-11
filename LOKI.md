@@ -1,3 +1,4 @@
+<- [[YARA]]
 # LOKI
 Github repo: https://github.com/Neo23x0/Loki
 #IOC and #IR scanner written in #Python utilizing [[YARA]] 
