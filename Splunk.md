@@ -27,12 +27,36 @@ Components:
 	- By default no dashboards are displaying
 	- Select from dropdown or from *dashboards listing page*
 
+
 ## Apps
 [Managing App Object](https://docs.splunk.com/Documentation/Splunk/8.1.2/Admin/Managingappobjects)
 
 ### Search & Reporting
 Where Splunk queries are entered to search the data ingested by Splunk.
 
+## Dashboards & Visualizations
+*NOTE: Dashboards are App specific, that is if you create a dashboard for the Search App the dashboard uses that app's context*
+-   [Visualization Web Framework](https://docs.splunk.com/Documentation/Splunk/8.1.2/Viz/WebFramework)
+-   [Visualization Manuall](https://docs.splunk.com/Documentation/Splunk/8.1.2/Viz/Aboutthismanual)
+-   [Create Dashboards](https://docs.splunk.com/Documentation/Splunk/8.1.2/Viz/CreateDashboards)
+-   [Add Panels](https://docs.splunk.com/Documentation/Splunk/8.1.2/Viz/AddPanels)
+-   [Tutorials - Search: Create New Dashboard](https://docs.splunk.com/Documentation/Splunk/8.1.2/SearchTutorial/Createnewdashboard)
+
+Visualization Ref and Documentation - https://docs.splunk.com/Documentation/Splunk/8.1.2/Viz/Visualizationreference
+
+Navigate to *Dashboards* in the Menu Bar for the Desired APP
+
+### Example - Top 5 Sysmon Event IDs
+
+![[splunk-dashboard-example.gif]]
+
+Search: `source="XmlWinEventLog:Microsoft-WIndows-Sysmon/Operational" | top limit=5 EventID`
+
+Select your Visualization and save to *Dashboard Panel*, and if the dashboard is already created, save to *Existing* and select your dashboard. 
+
+Your dashboard should now be populated.
+
+You can set to Home Dashboard via the "..." menu top left -> Set as Home Dashboard. 
 
 ## Adding Data
 [Use apps to get data in](https://docs.splunk.com/Documentation/Splunk/8.1.2/Data/Getstartedwithgettingdatain#Use_apps_to_get_data_in)
@@ -61,4 +85,34 @@ However, if those don't work there's also *Upload*, *Monitor*, and *Forward* at 
 If #Sysmon and Powershell logs aren't in the list of `Available item(s)`, check `Settings -> Data Inputs` to add available logs. 
 
 ## Queries
+-   [About The Search App](https://docs.splunk.com/Documentation/Splunk/8.1.2/SearchTutorial/Aboutthesearchapp)
+-   [Start Searching](https://docs.splunk.com/Documentation/Splunk/8.1.2/SearchTutorial/Startsearching)
+-   [Time Range PIcker](https://docs.splunk.com/Documentation/Splunk/8.1.2/SearchTutorial/Aboutthetimerangepicker)[](https://docs.splunk.com/Documentation/Splunk/8.1.2/SearchTutorial/Aboutthetimerangepicker)
+-   [Useful Fields to Search](https://docs.splunk.com/Documentation/Splunk/8.1.2/SearchTutorial/Usefieldstosearch)[](https://docs.splunk.com/Documentation/Splunk/8.0.4/SearchTutorial/Usefieldstosearch)
+-   [Useful Field Lookups](https://docs.splunk.com/Documentation/Splunk/8.1.2/SearchTutorial/Usefieldlookups)
+-   [Search With Field Lookups](https://docs.splunk.com/Documentation/Splunk/8.1.2/SearchTutorial/Searchwithfieldlookups)[](https://docs.splunk.com/Documentation/Splunk/8.1.2/SearchTutorial/Searchwithfieldlookups)
+-   [Regular Expressions](https://docs.splunk.com/Documentation/Splunk/8.1.2/Knowledge/AboutSplunkregularexpressions)
+
+
 Splunk uses an *implicit* `AND` between keywords. That is a query like `* GoogleUpdate.exe chrome_installer.exe` is really like `* AND GoogleUpdate.exe AND chrome_installer.exe`. 
+## Alerts
+*NOTE: In Splunk Free Alerts are not available*
+
+Alert Docs: https://docs.splunk.com/Documentation/Splunk/latest/Alert/Aboutalerts
+Alert Examples: https://docs.splunk.com/Documentation/SplunkCloud/8.1.2012/Alert/Alertexamples
+
+Alerts enable us to monitor and respond to specific events. Alerts use a saved search to monitor events in real-time or on a schedule. They'll trigger when a specific condition is met to take the defined course of action. 
+
+### Alert Flow
+[The alerting workflow](https://docs.splunk.com/Documentation/SplunkCloud/8.1.2012/Alert/AlertWorkflowOverview)
+**Search: What do you want to track?** 
+-   There is an external IP brute-forcing a web page. We want to be alerted whenever this IP address is actively attacking the infrastructure. 
+
+**Alert Type: How often do you want to check for events?**
+-   Since we want to be alerted whenever this IP is active, a real-time alert is what we'll configure. 
+
+**Alert trigger conditions and throttling: How often do you want to trigger an alert?**
+-   If 10 failed password events under 1 minute, generate an alert. 
+
+ **Alert action: What happens when the alert triggers?**
+-   Send an email or send a message in an application using a [webhook](https://docs.splunk.com/Documentation/Splunk/8.1.2/Alert/Webhooks).

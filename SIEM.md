@@ -14,6 +14,12 @@
 -   Security incident detection
 -   Threat response workflow
 
-## List of SIEMs or SIEM-like tools
+
+
+
+## List of SIEMs or related tools
+- [[Sigma - Generic Signature Format]] (Open sig format in YAML for SIEMS)
+
 - [[Splunk]]
-- 
+- [[ArcSight]]
+- [[RSA NetWitness]]

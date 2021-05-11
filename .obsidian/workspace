@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "Splunk.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 196.00021171569824
+    "width": 185.50021171569824
   },
   "right": {
     "id": "f007673a45777c8f",
@@ -89,14 +89,14 @@
   "active": "72556f0908a4cb20",
   "lastOpenFiles": [
     "Splunk.md",
-    "osquery.md",
-    "osquery-yara-on-demand-all-home-dirs.png",
     "Untitled.md",
-    "osquery-polylogx-ext-windows-service-lookup.png",
-    "Sysmon.md",
+    "Pasted image 20210509173749.png",
+    "SIEM.md",
+    "RSA NetWitness.md",
+    "ArcSight.md",
+    "Sigma - Generic Signature Format.md",
     "YARA.md",
-    "LOKI.md",
-    "Valhalla.md",
-    "yarAnalyzer.md"
+    "osquery.md",
+    "osquery-yara-on-demand-all-home-dirs.png"
   ]
 }
