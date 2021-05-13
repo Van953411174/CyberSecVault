@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "osquery.md",
-            "mode": "source"
+            "file": "Windows - Event Logs.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "osquery.md",
+                "file": "Windows - Event Logs.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "72556f0908a4cb20",
   "lastOpenFiles": [
+    "Windows - Event Logs.md",
+    "Get-WinEvent.md",
+    "Untitled.md",
+    "Volatility.md",
+    "volatility-malfind-example.png",
+    "YARA.md",
     "osquery.md",
     "Media/osquery-polylogx-ext-windows-defender-malware-alert.png",
-    "YARA.md",
     "Memory Analysis.md",
-    "Rekall Memory Forensic Framework.md",
-    "Volatility.md",
-    "Untitled.md",
-    "SIEM.md",
-    "Splunk.md",
-    "Redline - FireEye.md"
+    "Rekall Memory Forensic Framework.md"
   ]
 }
