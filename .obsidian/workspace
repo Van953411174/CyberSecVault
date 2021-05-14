@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Windows - Event Logs.md",
-            "mode": "preview"
+            "file": "Malware Analysis.md",
+            "mode": "source"
           }
         }
       }
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 185.50021171569824
+    "width": 260.50021171569824
   },
   "right": {
     "id": "f007673a45777c8f",
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows - Event Logs.md",
+                "file": "Malware Analysis.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "72556f0908a4cb20",
   "lastOpenFiles": [
-    "Windows - Event Logs.md",
-    "Get-WinEvent.md",
-    "Untitled.md",
-    "Volatility.md",
-    "volatility-malfind-example.png",
-    "YARA.md",
+    "Malware Analysis.md",
     "osquery.md",
-    "Media/osquery-polylogx-ext-windows-defender-malware-alert.png",
-    "Memory Analysis.md",
-    "Rekall Memory Forensic Framework.md"
+    "Files and Disk Utilities - Sysint.md",
+    "Hunting with PowerShell.md",
+    "Resource List.md",
+    "Security Utilities - Sysint.md",
+    "SecretsDump.py.md",
+    "TCP.md",
+    "Windows.md",
+    "tasklist.md"
   ]
 }
