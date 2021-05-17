@@ -1,4 +1,5 @@
-# Zerologon Analysis
+<- [[ZeroLogon]]
+# Zerologon PCAP Analysis
 ![[zerologon 1.pcap]]
 
 #zerologon, or #CVE-2020-1472, is a Windows #Active_Directory Exploit. 
