@@ -11,7 +11,7 @@ To start Nessus you need to start the daemon service:
 
 After the service starts, navigate to `https://localhost:8834`, ignore the security warning (its just because the certificate is self-signed)
 
-Credentials: `nessy-admin::Findlochnessy`
+Credentials: `see lastpass -> Nessus`
 
 ## Config & Options
 ### Scan Templates

@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "GetNPUsers.py.md",
-            "mode": "preview"
+            "file": "Nessus.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Zerologon",
+                "query": "::",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -48,7 +48,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GetNPUsers.py.md",
+                "file": "Nessus.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -88,15 +89,15 @@
   },
   "active": "af409c50f75b760f",
   "lastOpenFiles": [
+    "Nessus.md",
+    "ZeroLogon.md",
+    "kerbrute.md",
+    "Kerberos.md",
     "GetNPUsers.py.md",
     "Pasted image 20210517232135.png",
-    "Kerberos.md",
     "Untitled.md",
-    "ZeroLogon.md",
     "Evil-WinRm.md",
     "Active Directory.md",
-    "ZeroLogon PoC.md",
-    "Windows - Authentication.md",
-    "Malware Analysis.md"
+    "ZeroLogon PoC.md"
   ]
 }
