@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Malware Analysis.md",
-            "mode": "source"
+            "file": "GetNPUsers.py.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,10 +39,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hash",
+                "query": "Zerologon",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.50021171569824
+    "width": 217.00030708312988
   },
   "right": {
     "id": "f007673a45777c8f",
@@ -68,12 +68,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Malware Analysis.md",
+                "file": "GetNPUsers.py.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": true,
-                "searchQuery": "Wireshark",
+                "searchQuery": "",
                 "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -83,20 +83,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 100,
     "collapsed": true
   },
   "active": "af409c50f75b760f",
   "lastOpenFiles": [
-    "Malware Analysis.md",
-    "vmonkey.md",
-    "peepdf.md",
+    "GetNPUsers.py.md",
+    "Pasted image 20210517232135.png",
+    "Kerberos.md",
     "Untitled.md",
-    "Static Analysis.md",
-    "Dynamic Analysis.md",
-    "PE Explorer.md",
-    "PeID.md",
-    "O.md",
-    "Untitled 1.md"
+    "ZeroLogon.md",
+    "Evil-WinRm.md",
+    "Active Directory.md",
+    "ZeroLogon PoC.md",
+    "Windows - Authentication.md",
+    "Malware Analysis.md"
   ]
 }
