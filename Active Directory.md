@@ -12,7 +12,7 @@ Active Directory is a collection of machines and servers connected inside of dom
 
 All of these parts of Active Directory come together to make a big network of machines and servers.
 ### Why use it?
-It allows for control and monitoring of user's computers thorugh a single #DC. It also allows a single user to sign in to any computer on the active directory network, assuming policy allows, and have access their stored files and folders in the server as well as local storage on that machine.
+It allows for control and monitoring of user's computers thorough a single #DC. It also allows a single user to sign in to any computer on the active directory network, assuming policy allows, and have access their stored files and folders in the server as well as local storage on that machine.
 
 Allows for any user in the company to use any machine the company owns w/o having to set up multiple users on a machine.
 

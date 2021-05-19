@@ -2,6 +2,8 @@
 
 #LSASS is a process in #Windows that is responsible for enforcing the security policy on the system. It verifies uses logging on to a Windows computer or server, handles password changes, and creates access tokens. It also writes to the Windows Security Log. Used in [[Windows - Authentication]] for Local Auth. 
 
+Can store #Kerberos tickets along with other credential types.
+
 It creates security tokes for #SAM ([[Security Account Manager]]), #AD ([[Active Directory]]), and #NETLOGON 
 
 It uses authentication packages specified in the #registry at `HKLM\System\CurrentControlSet\Control\Lsa`

@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "af409c50f75b760f",
+        "id": "8cb5c562ee54845a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Nessus.md",
+            "file": "Kerberos.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "::",
+                "query": "Get",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -48,12 +48,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 217.00030708312988
+    "width": 145.00464057922363
   },
   "right": {
     "id": "f007673a45777c8f",
@@ -69,13 +68,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Nessus.md",
+                "file": "Kerberos.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": true,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
@@ -84,20 +83,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 100,
-    "collapsed": true
+    "width": 100
   },
-  "active": "af409c50f75b760f",
+  "active": "8cb5c562ee54845a",
   "lastOpenFiles": [
-    "Nessus.md",
-    "ZeroLogon.md",
-    "kerbrute.md",
     "Kerberos.md",
-    "GetNPUsers.py.md",
-    "Pasted image 20210517232135.png",
+    "Mimikatz.md",
+    "THM - Attacking Kerberos.md",
+    "Kerberoasting.md",
+    "Windows - lsass.exe.md",
     "Untitled.md",
-    "Evil-WinRm.md",
-    "Active Directory.md",
-    "ZeroLogon PoC.md"
+    "Rubeus.md",
+    "GetNPUsers.py.md",
+    "kerbrute.md",
+    "GetUserSPNs.py.md"
   ]
 }
