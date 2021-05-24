@@ -109,4 +109,4 @@ The windows10 host is currently in a controlled environment. Windows Security ha
 
 ## Delete the Stager
 
-
+Just delete the `*.bat` stager and you're finished!
