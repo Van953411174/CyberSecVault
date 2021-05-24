@@ -4,11 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "284d268cbf631a47",
+        "id": "fa4d4ea5072d9c03",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "RF - Windows Detection Challege.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -36,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Get",
+                "query": "xml",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -49,8 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 414.50464057922363,
-    "collapsed": true
+    "width": 524.5002117156982
   },
   "right": {
     "id": "f007673a45777c8f",
@@ -66,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "RF - Windows Detection Challege.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -75,24 +78,32 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "2a3557d0e8bf541f",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 100
+    "width": 361.3268737792969
   },
-  "active": "284d268cbf631a47",
+  "active": "fa4d4ea5072d9c03",
   "lastOpenFiles": [
-    "Media/Attacking-Kerberos-mimikatz-dump-SQLService-ticket.png",
-    "Attacking-Kerberos-Rubeus-Harvest-Ticket-Domain-Controller.png",
-    "Attacking-Kerberos-mimikatz-dump-SQLService-ticket.png",
-    "Kerberos.md",
-    "Mimikatz.md",
-    "THM - Attacking Kerberos.md",
-    "Kerberoasting.md",
-    "Windows - lsass.exe.md",
-    "Untitled.md",
-    "Rubeus.md"
+    "RF - Windows Detection Challege.md",
+    "Networking Utilities - Sysint.md",
+    "Nessus.md",
+    "MySQL.md",
+    "Malware Analysis.md",
+    "Memory Analysis.md",
+    "Sysmon.md",
+    "Evil-WinRm.md",
+    "ZeroLogon.md",
+    "Static Analysis.md"
   ]
 }
