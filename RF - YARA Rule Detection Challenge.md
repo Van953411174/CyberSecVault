@@ -57,7 +57,7 @@ You need to check how many of the files are Windows executables (PE file format)
 - Write a **Yara rule** capable of detecting files that have a **PE file format** in the `/home/student/Desktop/suspicious` directory.
 - Save the rule into the `/home/student/Desktop/rules/pe.yar` file.
 
-Rule written for task:
+**Rule written for task:**
 ```
 rule is_pe
 {
@@ -78,7 +78,8 @@ Create the rule file into the `Desktop/rules` directory and name the file malwar
 	- Create the Yara rule from the strings in `/home/student/Desktop/intel/strings.txt` to detect the malware.
 - Save the rule into the `/home/student/Desktop/rules/malware.yar` file.
 
-Rule Written for Task:
+**Rule Written for Task:**
+*Use -x MODULE=FILE, pass FILE's content as extra data to MODULE*
 ```
 rule malware_match{
 	strings

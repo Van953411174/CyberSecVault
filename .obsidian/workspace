@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "YARA.md",
+            "file": "RF - YARA Rule Detection Challenge.md",
             "mode": "source"
           }
         }
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "YARA.md",
+                "file": "RF - YARA Rule Detection Challenge.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -109,8 +109,8 @@
   },
   "active": "fa4d4ea5072d9c03",
   "lastOpenFiles": [
-    "YARA.md",
     "RF - YARA Rule Detection Challenge.md",
+    "YARA.md",
     "Cheatsheet-YARA.md",
     "RangeForce - SOC Detection Challenges Index.md",
     "RF - Email Detection Challenge.md",
