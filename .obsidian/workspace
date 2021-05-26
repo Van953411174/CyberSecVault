@@ -6,11 +6,24 @@
       {
         "id": "fa4d4ea5072d9c03",
         "type": "leaf",
+        "dimension": 71.75,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "RF - Windows Detection Challege.md",
+            "file": "YARA.md",
             "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "40ee51b4defc7f93",
+        "type": "leaf",
+        "dimension": 28.249999999999996,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "YARA.md",
+            "mode": "preview"
           }
         }
       }
@@ -52,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 524.5002117156982
+    "width": 100
   },
   "right": {
     "id": "f007673a45777c8f",
@@ -68,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RF - Windows Detection Challege.md",
+                "file": "YARA.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -91,19 +104,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 361.3268737792969
+    "width": 111.11942291259766,
+    "collapsed": true
   },
   "active": "fa4d4ea5072d9c03",
   "lastOpenFiles": [
+    "YARA.md",
+    "RF - YARA Rule Detection Challenge.md",
+    "Cheatsheet-YARA.md",
+    "RangeForce - SOC Detection Challenges Index.md",
+    "RF - Email Detection Challenge.md",
+    "Sysmon.md",
+    "Pasted image 20210525114120.png",
     "RF - Windows Detection Challege.md",
     "Networking Utilities - Sysint.md",
-    "Nessus.md",
-    "MySQL.md",
-    "Malware Analysis.md",
-    "Memory Analysis.md",
-    "Sysmon.md",
-    "Evil-WinRm.md",
-    "ZeroLogon.md",
-    "Static Analysis.md"
+    "Nessus.md"
   ]
 }

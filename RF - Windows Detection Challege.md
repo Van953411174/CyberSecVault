@@ -12,7 +12,7 @@ You will investigate the possible compromise using Splunk SIEM solution.
 See [[Splunk]]
 
 **Tasks**
-1.[[RF - Windows Detection Challege#Restore Windows Security|Restore Windows Security]]
+1. [[RF - Windows Detection Challege#Restore Windows Security|Restore Windows Security]]
 2. [[RF - Windows Detection Challege#Search for IOCs|Search for IOCs]]
 3. [[RF - Windows Detection Challege#Gather Intelligence|Gather Intelligence]]
 4. [[RF - Windows Detection Challege#Analyze Malware Stager|Analyze Malware Stager]]

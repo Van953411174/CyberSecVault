@@ -1,4 +1,6 @@
 # YARA 
+Github: https://virustotal.github.io/yara/
+Wiki: https://yara.readthedocs.io/en/stable/
 What does it stand for? ... *Yet Another Ridiculous Acronym*
 Absolute GOLD
 
@@ -31,6 +33,7 @@ Using a rule is simple though. Every `yara` command requires two arguments to be
 ^requirements
 
 
+
 **Every** rule must have a name and condition.
 Example:
 - `yara myrule.yar somedirectory`
@@ -40,7 +43,7 @@ Example:
 Create a file called `myfirstrule.yar`:
 ![[Pasted image 20210501141037.png]]
 
-Name of the rule is `examplerule` with one condition, in this case the condition is `condition`. This satisfies the two requirements [[|YARA#^requirements]]
+Name of the rule is `examplerule` with one condition, in this case the condition is `condition`. This satisfies the two requirements [[#^requirements]]
 
 This rule simply checks if the *file, directory, or PID* we specified exists via `condition: true`. If the file does exist, i.e. the patter has been met, we are given the output of `examplefule`+ `<providedArg>`. 
 ![[Pasted image 20210501142248.png]]
