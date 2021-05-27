@@ -15,7 +15,6 @@ Index:
 > The samples are located in the `/home/student/Desktop/sample` directory and aptly named `1`, `2` and `3`.
 Perform **string analysis** on the files and try to look for rare strings that might be unique to the malware.
 
-
 **How many sequences of printable characters with the minimum length of 7 are there in the file `sample/1`?**
 *Assume printable characters to be single-7-bit-byte characters (ASCII, ISO 8859, etc.), including tab and space characters but no other whitespace characters.*
 
@@ -108,3 +107,4 @@ After running the script `python formatStr.py` we're provided a YARA rule named 
 *YARA Rule*
 ![[RF-YARA-Rule-Detection-Challenge-yara-rule-malware-detect-head.png]]
 ![[RF-YARA-Rule-Detection-Challenge-yara-rule-malware-detect-tail.png]]
+

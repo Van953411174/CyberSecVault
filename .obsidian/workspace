@@ -4,25 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "fa4d4ea5072d9c03",
-        "type": "leaf",
-        "dimension": 71.75,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Sigma - Generic Signature Format.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
         "id": "40ee51b4defc7f93",
         "type": "leaf",
-        "dimension": 28.249999999999996,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "YARA.md",
+            "file": "Cyber Kill Chain.md",
             "mode": "preview"
           }
         }
@@ -52,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Florian",
+                "query": "\"Cyber Kill\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -82,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sigma - Generic Signature Format.md",
+                "file": "Cyber Kill Chain.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -108,17 +95,17 @@
     "width": 111.11942291259766,
     "collapsed": true
   },
-  "active": "fa4d4ea5072d9c03",
+  "active": "40ee51b4defc7f93",
   "lastOpenFiles": [
-    "Sigma - Generic Signature Format.md",
-    "YARA.md",
+    "Cyber Kill Chain.md",
+    "ATT&CK Framework.md",
+    "SQL Injection.md",
+    "Web Attacks Index.md",
     "RF - YARA Rule Detection Challenge.md",
-    "Cheatsheet-YARA.md",
-    "RangeForce - SOC Detection Challenges Index.md",
-    "RF - Email Detection Challenge.md",
-    "Sysmon.md",
-    "Pasted image 20210525114120.png",
-    "RF - Windows Detection Challege.md",
-    "Networking Utilities - Sysint.md"
+    "YARA.md",
+    "Cross-Site Scripting (XSS).md",
+    "Untitled.md",
+    "Sigma - Generic Signature Format.md",
+    "Cheatsheet-YARA.md"
   ]
 }
