@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "RF - YARA Rule Detection Challenge.md",
+            "file": "Sigma - Generic Signature Format.md",
             "mode": "source"
           }
         }
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "xml",
+                "query": "Florian",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -61,11 +61,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 100
+    "width": 163.00810623168945
   },
   "right": {
     "id": "f007673a45777c8f",
@@ -81,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RF - YARA Rule Detection Challenge.md",
+                "file": "Sigma - Generic Signature Format.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -109,15 +110,15 @@
   },
   "active": "fa4d4ea5072d9c03",
   "lastOpenFiles": [
-    "RF - YARA Rule Detection Challenge.md",
+    "Sigma - Generic Signature Format.md",
     "YARA.md",
+    "RF - YARA Rule Detection Challenge.md",
     "Cheatsheet-YARA.md",
     "RangeForce - SOC Detection Challenges Index.md",
     "RF - Email Detection Challenge.md",
     "Sysmon.md",
     "Pasted image 20210525114120.png",
     "RF - Windows Detection Challege.md",
-    "Networking Utilities - Sysint.md",
-    "Nessus.md"
+    "Networking Utilities - Sysint.md"
   ]
 }

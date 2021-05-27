@@ -4,9 +4,7 @@ Github Repo: https://github.com/SigmaHQ/sigma
 > "Sigma is for log files what Snort is for network traffic and YARA is for files" 
 
 
-
 A generic and open signature format that allows you describe relevant log events in a straightforward manner. Created by Florian Roth, see [[YARA#Tools and Pre-built Rules]] for more things by him. 
-
 
 
 **Requirements**

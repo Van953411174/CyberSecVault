@@ -19,7 +19,7 @@ Perform **string analysis** on the files and try to look for rare strings that m
 **How many sequences of printable characters with the minimum length of 7 are there in the file `sample/1`?**
 *Assume printable characters to be single-7-bit-byte characters (ASCII, ISO 8859, etc.), including tab and space characters but no other whitespace characters.*
 
-`2291`
+`1837`
 
 - Process
 	- To determine how many lines match navigate to the sample directory (or use the entire file path) and run: `strings ./1 | grep -E ".{7,}" | wc -l`
@@ -79,12 +79,32 @@ Create the rule file into the `Desktop/rules` directory and name the file malwar
 - Save the rule into the `/home/student/Desktop/rules/malware.yar` file.
 
 **Rule Written for Task:**
-*Use -x MODULE=FILE, pass FILE's content as extra data to MODULE*
+The task was completed by parsing and cleaning the provided `strings.txt` file (300+ lines) using a python script to autogenerate the yara rule using anonymous strings. Making it non-anonymous is as simple as introducing a counter variable to prepend to each string. The rule's sensitivity can be adjusted by changing the `all of them` condition (requiring all strings to match) to `any of them` (requiring 1 or more to match) or to a specific number of them such as `5 of them`
+
+*Script formatStr.py*
+```python
+startStr = '$ = "'
+endStr = '"'
+inputStrings = open("/home/student/Desktop/intel/strings.txt", 'r')
+yaraRule = open("/home/student/Desktop/rules/malware.yar", 'w')
+
+
+yaraRule.write("rule malware_detect{\nstrings:\n")
+
+lines = inputStrings.readlines()
+for l in lines:
+    l = l.replace('\\', '\\\\')
+    l = l.replace('"', '\\"')
+    n = yaraRule.write(startStr+l[0:-1]+endStr+'\n')
+
+yaraRule.write("\ncondition:\nall of them\n}\n")
+
+inputStrings.close()
+yaraRule.close()
 ```
-rule malware_match{
-	strings
 
+After running the script `python formatStr.py` we're provided a YARA rule named `malware.yar` to use.
 
-
-}
-```
+*YARA Rule*
+![[RF-YARA-Rule-Detection-Challenge-yara-rule-malware-detect-head.png]]
+![[RF-YARA-Rule-Detection-Challenge-yara-rule-malware-detect-tail.png]]
