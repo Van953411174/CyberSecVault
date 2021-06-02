@@ -1,4 +1,4 @@
-a<-[[BTLO - Index]]
+<-[[BTLO - Index]]
 
 - [ ] ==NOTE: NEED TO CHANGE DIAGRAM FOR TCP SYN (TCP Half-Open) Scan to include RST response as it currently does not==
 

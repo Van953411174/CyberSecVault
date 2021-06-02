@@ -4,23 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "ff2f98dd7c2f4b43",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "BTLO Phishing Analysis.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
         "id": "ebc44d1c3f01449e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "BTLO Network Analysis - Web Shell.md",
+            "file": "BTLO - Index.md",
             "mode": "source"
           }
         }
@@ -79,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BTLO Phishing Analysis.md",
+                "file": "BTLO - Index.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -105,11 +94,11 @@
     "width": 111.11942291259766,
     "collapsed": true
   },
-  "active": "ff2f98dd7c2f4b43",
+  "active": "ebc44d1c3f01449e",
   "lastOpenFiles": [
-    "BTLO Phishing Analysis.md",
-    "BTLO Network Analysis - Web Shell.md",
     "BTLO - Index.md",
+    "BTLO Network Analysis - Web Shell.md",
+    "BTLO Phishing Analysis.md",
     "Media/scan_types.png",
     "02 Writeup Index.md",
     "01 Table of Contents.md",
