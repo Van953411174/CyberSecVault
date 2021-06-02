@@ -172,7 +172,7 @@ Using Mozilla Thunderbird and any other necessary tools, answer the following:
 `The record is valid`
 
 - Process
-	- Copy the header into the MX Toolbox, then expand the SPF section and scroll down to the *SPF Syntax Check* ![[RT-Email-Detection-Challenge-NewApp-SPF-Syntax-Check.png]]
+	- Copy the header into the MX Toolbox, then expand the SPF section and scroll down to the *SPF Syntax Check* ![[RF-Email-Detection-Challenge-NewApp-SPF-Syntax-Check.png]]
 
 **According to [MX Toolbox], what is the result of *DKIM Syntax Check*?**
 `The record is valid`

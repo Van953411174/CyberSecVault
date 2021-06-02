@@ -4,13 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "40ee51b4defc7f93",
+        "id": "ff2f98dd7c2f4b43",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cyber Kill Chain.md",
-            "mode": "preview"
+            "file": "BTLO Phishing Analysis.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "ebc44d1c3f01449e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "BTLO Network Analysis - Web Shell.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Cyber Kill\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -48,12 +59,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 163.00810623168945
+    "width": 777.0081062316895
   },
   "right": {
     "id": "f007673a45777c8f",
@@ -69,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cyber Kill Chain.md",
+                "file": "BTLO Phishing Analysis.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -95,17 +105,17 @@
     "width": 111.11942291259766,
     "collapsed": true
   },
-  "active": "40ee51b4defc7f93",
+  "active": "ff2f98dd7c2f4b43",
   "lastOpenFiles": [
-    "Cyber Kill Chain.md",
-    "ATT&CK Framework.md",
-    "SQL Injection.md",
-    "Web Attacks Index.md",
-    "RF - YARA Rule Detection Challenge.md",
-    "YARA.md",
-    "Cross-Site Scripting (XSS).md",
-    "Untitled.md",
-    "Sigma - Generic Signature Format.md",
-    "Cheatsheet-YARA.md"
+    "BTLO Phishing Analysis.md",
+    "BTLO Network Analysis - Web Shell.md",
+    "BTLO - Index.md",
+    "Media/scan_types.png",
+    "02 Writeup Index.md",
+    "01 Table of Contents.md",
+    "Writeup Index.md",
+    "THM - Attacking Kerberos.md",
+    "RangeForce - SOC Detection Challenges Index.md",
+    "RF - YARA Rule Detection Challenge.md"
   ]
 }

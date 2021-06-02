@@ -1,4 +1,4 @@
-<- [[Writeup Index]]
+<- [[02 Writeup Index]]
 <- [[Kerberos]]
 # Attacking Kerberos
 Link: https://tryhackme.com/room/attackingkerberos
